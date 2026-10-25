@@ -18,3 +18,13 @@ httpx>=0.27.0
 selectolax>=0.3.21
 names>=0.3.0
 cryptography>=41.0.0
+
+# ── 201 fork 移植平台新增依赖（方案A，见 docs/注册机方案A移植分析.md）──
+numpy>=1.26.0  # platforms/zcode aliyun_slider
+
+# ── Windows 桌面自动化（github平台无CDP驱动线：core/browser_env.py、core/human_driver.py）──
+# 仅 Windows 需要；docker/跨平台部署可忽略（相关 import 均为函数内延迟导入）
+pywinauto>=0.6.9; sys_platform == "win32"
+pywin32>=306; sys_platform == "win32"
+Pillow>=10.0.0; sys_platform == "win32"
+psutil>=5.9.0; sys_platform == "win32"
