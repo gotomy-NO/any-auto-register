@@ -9,7 +9,11 @@ from typing import Type
 from .base_platform import BasePlatform
 
 # 项目当前只维护 ChatGPT 与 iCloud 两类注册；其余插件已下线。
-SUPPORTED_PLATFORMS = ("chatgpt", "icloud")
+SUPPORTED_PLATFORMS = (
+    "chatgpt", "icloud",
+    # 201 fork 移植回迁（方案A，见 docs/注册机方案A移植分析.md）
+    "github", "cerebras", "tavily", "cursor",
+)
 
 _registry: dict[str, Type[BasePlatform]] = {}
 
