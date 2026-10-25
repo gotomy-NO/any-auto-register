@@ -1,0 +1,27 @@
+[
+ {
+  "url": "https://chat.z.ai/api/v2/chat/completions?timestamp=1787987828804&requestId=1a05b37a-150f-4528-9248-e631678c2c3c&user_id=54d8feb5-75c2-49b4-a873-d6720d59e1ea&version=0.0.1&platform=web&token=<REDACTED_JWT>&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A152.0%29+Gecko%2F20100101+Firefox%2F152.0&language=en-US&languages=en-US%2Cen&timezone=Asia%2FShanghai&cookie_enabled=true&screen_width=3072&screen_height=1728&screen_resolution=3072x1728&viewport_height=1246&viewport_width=1770&viewport_size=1770x1246&color_depth=24&pixel_ratio=1&current_url=https%3A%2F%2Fchat.z.ai%2Fc%2Feb7048b7-df98-4068-9be7-99691ab056d9&pathname=%2Fc%2Feb7048b7-df98-4068-9be7-99691ab056d9&search=&hash=&host=chat.z.ai&hostname=chat.z.ai&protocol=https%3A&referrer=&title=Z.ai+-+Advanced+AI+Chatbot+%26+Agent+powered+by+GLM-5.3-Flash&timezone_offset=-480&local_time=2026-08-29T07%3A17%3A08.808Z&utc_time=Sat%2C+29+Aug+2026+07%3A17%3A08+GMT&is_mobile=false&is_touch=false&max_touch_points=0&browser_name=Firefox&os_name=Windows&signature_timestamp=1787987828804",
+  "method": "POST",
+  "post_data": "{\"stream\":true,\"model\":\"x-preview-l\",\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}],\"signature_prompt\":\"hi\",\"params\":{},\"extra\":{},\"features\":{\"image_generation\":false,\"web_search\":false,\"auto_web_search\":false,\"preview_mode\":true,\"flags\":[],\"vlm_tools_enable\":false,\"vlm_web_search_enable\":false,\"vlm_website_mode\":false,\"enable_thinking\":true,\"reasoning_effort\":\"max\"},\"variables\":{\"{{USER_NAME}}\":\"ysEAc\",\"{{USER_LOCATION}}\":\"Unknown\",\"{{CURRENT_DATETIME}}\":\"2026-08-29 15:17:13\",\"{{CURRENT_DATE}}\":\"2026-08-29\",\"{{CURRENT_TIME}}\":\"15:17:13\",\"{{CURRENT_WEEKDAY}}\":\"Saturday\",\"{{CURRENT_TIMEZONE}}\":\"Asia/Shanghai\",\"{{USER_LANGUAGE}}\":\"en-US\"},\"chat_id\":\"eb7048b7-df98-4068-9be7-99691ab056d9\",\"id\":\"68cac2b8-38b3-4d9e-9ca6-7c563fb83401\",\"current_user_message_id\":\"9a9fa8c5-d55b-40bb-8cac-27636dbbfda6\",\"current_user_message_parent_id\":null,\"background_tasks\":{\"title_generation\":true,\"tags_generation\":true},\"captcha_verify_param\":\"  "post_data": "{\"stream\":true,\"model\":\"x-preview-l\",\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}],\"signature_prompt\":\"hi\",\"params\":{},\"extra\":{},\"features\":{\"image_generation\":false,\"web_search\":false,\"auto_web_search\":false,\"preview_mode\":true,\"flags\":[],\"vlm_tools_enable\":false,\"vlm_web_search_enable\":false,\"vlm_website_mode\":false,\"enable_thinking\":true,\"reasoning_effort\":\"max\"},\"variables\":{\"{{USER_NAME}}\":\"ysEAc\",\"{{USER_LOCATION}}\":\"Unknown\",\"{{CURRENT_DATETIME}}\":\"2026-08-29 15:17:13\",\"{{CURRENT_DATE}}\":\"2026-08-29\",\"{{CURRENT_TIME}}\":\"15:17:13\",\"{{CURRENT_WEEKDAY}}\":\"Saturday\",\"{{CURRENT_TIMEZONE}}\":\"Asia/Shanghai\",\"{{USER_LANGUAGE}}\":\"en-US\"},\"chat_id\":\"eb7048b7-df98-4068-9be7-99691ab056d9\",\"id\":\"68cac2b8-38b3-4d9e-9ca6-7c563fb83401\",\"current_user_message_id\":\"9a9fa8c5-d55b-40bb-8cac-27636dbbfda6\",\"current_user_message_parent_id\":null,\"background_tasks\":{\"title_generation\":true,\"tags_generation\":true},\"captcha_verify_param\":\"[REDACTED-by-secret-scan]==\"}",
+  "headers": {
+   "host": "chat.z.ai",
+   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+   "accept": "*/*",
+   "accept-language": "en-US",
+   "accept-encoding": "gzip, deflate, br, zstd",
+   "authorization": "Bearer <REDACTED_JWT>",
+   "content-type": "application/json",
+   "x-device-id": "uid_s5wrclm2pa9nbj3i",
+   "x-fe-version": "prod-fe-1.1.92",
+   "x-region": "overseas",
+   "x-signature": "3626fb3a6d2d74cf0256d3362ff313d0b8bd9b1330cc942fb8eee9c1006563f8",
+   "content-length": "1213",
+   "origin": "https://chat.z.ai",
+   "connection": "keep-alive",
+   "cookie": "acw_tc=0a0ccb8617879878035202662e7f3e4190675ebe9e450d02ec11d9a2638e7e; cdn_sec_tc=a3b5239d17879878034952466ef103d9200d02cef434409a967b0804c1; ssxmod_itna=1-eqGxgDRDnDyGG=qeYj2mADwZYODO33DzxC5iOD_xQv508D6GDB40QRYez_qQDB07BHXxZDWwhrniYfYD/KWWmoDUZ4iaDIbndPZYjLBw0POQBo4GqerwGwvtSZIxhu3znm9Dq=sA0okyBxhBBEvMKYNuAMdcDB3Dbk3peOoD44DvDBYD74G_DDeDigbDj4GmDGYTLeDF/jnWHZuQ=xDwDB=DmdqTIPDfDDLNq_GNrZ2C=oqDAwKW57GNx0taDBL_fU7DGu8joDGWCayNagrD8MrD7k_Ck3ukXPGubXHTv3qOePFaLlk3aAodiei83zBFmiPXRHsfDRGDD7vNr0/erDGHse2HC4_Y4bYD=0BDzD4b0DS4xShYWD43_iD_x9rKpgHDDW2Conip_We_YpYfod4AD1=tGqhg50CeP4Y4hKnGxtGoK0DZ2xPOosOiljpNoego41ONsgPfgdsxIm1I4D; ssxmod_itna2=1-eqGxgDRDnDyGG=qeYj2mADwZYODO33DzxC5iOD_xQv508D6GDB40QRYez_qQDB07BHXxZDWwhrniY4DW_SrL7X1eBx7p_NSOPfnvnS=6Gc4HuUP87Dl=7DgfQ0fc8n1ZziMxkzY7vGhYnY4xq3RYllTi/iq=QBihetGYd=GDD; _gcl_au=1.1.858187341.1787987808; _ga_Z8QTHYBHP3=GS2.1.s1787987807$o1$g1$t1787987829$j38$l0$h0; _ga=GA1.1.1530882479.1787987808; token=<REDACTED_JWT>; _ga_9HHB4R5K1T=GS2.1.s1787987808$o1$g1$t1787987829$j39$l0$h0; _twsid=%7B%22id%22%3A%221787987808803-282582396%22%2C%22ct%22%3A1%2C%22ts%22%3A1787987829082%7D; _twpid=tw.1787987808803.610975654273376873; _ga_SF8X67RPF9=GS2.1.s1787987809$o1$g1$t1787987829$j40$l0$h0; _fbp=fb.1.1787987810456.178246126999599177.AQYAAQIB; _clck=1em2wbt%5E2%5Eg90%5E0%5E2432; _clsk=nau5ql%5E1787987832175%5E3%5E0%5Er.clarity.ms%2Fcollect; _rdt_uuid=1787987810143.a244f898-810b-4449-9360-37a72c636594; _uetsid=99ee4f40a37911f1b2da855a4fea8b39; _uetvid=99ee73f0a37911f192da7faf31c3f422; _c_WBKFRo=AL48N7IzxfYS0lfs3zUAyIxbWy6xTAc3maMDTRQp; _nb_ioWEgULi=",
+   "sec-fetch-dest": "empty",
+   "sec-fetch-mode": "cors",
+   "sec-fetch-site": "same-origin"
+  }
+ }
+]

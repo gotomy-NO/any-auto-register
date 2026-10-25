@@ -1,0 +1,284 @@
+{
+ "before": {
+  "captcha": [
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-float-wrapper",
+    "cls": "",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-wrapper",
+    "cls": "aliyun-captcha",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-body",
+    "cls": "captcha hover-active",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-left",
+    "cls": "aliyunCaptcha-captcha-left",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-start-icon",
+    "cls": "aliyunCaptcha-start-icon",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-text-box",
+    "cls": "aliyunCaptcha-captcha-text-box",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "id": "aliyunCaptcha-captcha-text",
+    "cls": "aliyunCaptcha-captcha-text",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-logo-wrap",
+    "cls": "aliyunCaptcha-captcha-logo-wrap",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-captcha-logo",
+    "cls": "aliyunCaptcha-captcha-logo",
+    "text": "",
+    "visible": true
+   }
+  ],
+  "iframes": [
+   {
+    "src": "",
+    "cls": ""
+   }
+  ],
+  "texts": [
+   {
+    "id": "aliyunCaptcha-captcha-body",
+    "text": "Click to start verification",
+    "cls": "captcha hover-active"
+   },
+   {
+    "id": "aliyunCaptcha-captcha-text",
+    "text": "Click to start verification",
+    "cls": "aliyunCaptcha-captcha-text"
+   }
+  ]
+ },
+ "after": {
+  "captcha": [
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-float-wrapper",
+    "cls": "",
+    "text": "Click to start verification\nPlease compl",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-wrapper",
+    "cls": "aliyun-captcha",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-body",
+    "cls": "captcha hover-active",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-left",
+    "cls": "aliyunCaptcha-captcha-left",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-start-icon",
+    "cls": "aliyunCaptcha-start-icon",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-text-box",
+    "cls": "aliyunCaptcha-captcha-text-box",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "id": "aliyunCaptcha-captcha-text",
+    "cls": "aliyunCaptcha-captcha-text",
+    "text": "Click to start verification",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-logo-wrap",
+    "cls": "aliyunCaptcha-captcha-logo-wrap",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-captcha-logo",
+    "cls": "aliyunCaptcha-captcha-logo",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-window-float",
+    "cls": "window-show",
+    "text": "Please complete security verification\n\n",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "aliyunCaptcha-top aliyun-captcha",
+    "text": "Please complete security verification\n",
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "id": "aliyunCaptcha-title",
+    "cls": "",
+    "text": "Please complete security verification",
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "id": "aliyunCaptcha-option",
+    "cls": "",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "id": "aliyunCaptcha-btn-close",
+    "cls": "",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-img-box",
+    "cls": "puzzle",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-img",
+    "cls": "puzzle",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "id": "aliyunCaptcha-btn-refresh",
+    "cls": "",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-overlay",
+    "cls": "",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-puzzle",
+    "cls": "",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-sliding-body",
+    "cls": "null",
+    "text": "\nPlease drag the slider to restore the ",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-sliding-left",
+    "cls": "width-change initial",
+    "text": "",
+    "visible": false
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-sliding-slider",
+    "cls": "slider-move initial",
+    "text": "",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-sliding-text-box",
+    "cls": "aliyunCaptcha-sliding-text-box",
+    "text": "Please drag the slider to restore the co",
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "id": "aliyunCaptcha-sliding-text",
+    "cls": "aliyunCaptcha-sliding-text",
+    "text": "Please drag the slider to restore the co",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-certifyId",
+    "cls": "",
+    "text": "CertifyId: 5lB1ksVLLM",
+    "visible": true
+   }
+  ],
+  "iframes": [
+   {
+    "src": "",
+    "cls": ""
+   }
+  ],
+  "texts": [
+   {
+    "id": "aliyunCaptcha-captcha-body",
+    "text": "Click to start verification",
+    "cls": "captcha hover-active"
+   },
+   {
+    "id": "aliyunCaptcha-captcha-text",
+    "text": "Click to start verification",
+    "cls": "aliyunCaptcha-captcha-text"
+   }
+  ]
+ }
+}

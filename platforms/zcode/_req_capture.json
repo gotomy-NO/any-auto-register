@@ -1,0 +1,375 @@
+{
+ "captures": [],
+ "cookies": [
+  {
+   "name": "muc_ads",
+   "value": "3a44b8f0-c7e7-4c7d-a4c4-f68792fbf93b",
+   "domain": ".t.co",
+   "path": "/",
+   "expires": 1822547695.967,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "__cf_bm",
+   "value": "IO6sAf96Gi7gv_890oIsktLYLnHvnZ5UqnhPno24cdI-1787987695.4520214-1.0.1.1-_TJ5kGwqrEIJY5DJ7ho1jm7tPuErM.SbLJHbNgL8PlJx2IxZT0mfpGjJnFdkbIulcz_jn6l_NK9cVTthvhXaZKL91Yy_i1tJ_m3mTnPMUH9CQw4mIfpPb7ztoGVG9FhD",
+   "domain": ".t.co",
+   "path": "/",
+   "expires": 1787989495.967,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "CLID",
+   "value": "4f7da91d254a42f893250418cb18e200.20260829.20270829",
+   "domain": "www.clarity.ms",
+   "path": "/",
+   "expires": 1819523696.59,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "SM",
+   "value": "C",
+   "domain": ".c.clarity.ms",
+   "path": "/",
+   "expires": -1,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "MUID",
+   "value": "0B2F0BB145D66BE82BA41C7544316A3B",
+   "domain": ".clarity.ms",
+   "path": "/",
+   "expires": 1821683706.953,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "MR",
+   "value": "0",
+   "domain": ".c.clarity.ms",
+   "path": "/",
+   "expires": 1788592506.953,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "ANONCHK",
+   "value": "0",
+   "domain": ".c.clarity.ms",
+   "path": "/",
+   "expires": 1787988306.953,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "fr",
+   "value": "0jw1ycVg6POeIVEPV..Bqkobw...1.0.Bqkobw.",
+   "domain": ".facebook.com",
+   "path": "/",
+   "expires": 1795763696.737,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "guest_id_marketing",
+   "value": "v1%3A178798769503991353",
+   "domain": ".twitter.com",
+   "path": "/",
+   "expires": 1822547695.451,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "guest_id_ads",
+   "value": "v1%3A178798769503991353",
+   "domain": ".twitter.com",
+   "path": "/",
+   "expires": 1822547695.451,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "personalization_id",
+   "value": "\"v1_7cUARGOLxi0WltpYDlcryQ==\"",
+   "domain": ".twitter.com",
+   "path": "/",
+   "expires": 1822547695.451,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "guest_id",
+   "value": "v1%3A178798769503991353",
+   "domain": ".twitter.com",
+   "path": "/",
+   "expires": 1822547695.451,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "__cf_bm",
+   "value": "qfP0.NIc42wxgER45hrpvTQlsEk0clT7mGculNrR4oE-1787987694.9727507-1.0.1.1-Xq_rwgx5qfNh5_e0qNFan5Oa6AHjjlSnB9bbr3QtKdWlUAmZSLQv.56YIOPrqEO8pl9DFCs_sOgDn3_e860SAoz6I5QAEytq_DXqO.SWDx661V.ogHEJ303S2BmoEVyq",
+   "domain": ".twitter.com",
+   "path": "/",
+   "expires": 1787989495.451,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "cdn_sec_tc",
+   "value": "a3b523a517879876900566345ef16c64cea6e3a9194228ad51f6d2b504",
+   "domain": "chat.z.ai",
+   "path": "/",
+   "expires": 1787991289.738,
+   "httpOnly": true,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "acw_tc",
+   "value": "0a0f6bd617879876900723787e4e616bce85ac20935db70f9a2ee1c153cbfe",
+   "domain": "chat.z.ai",
+   "path": "/",
+   "expires": 1787989489.738,
+   "httpOnly": true,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_gcl_au",
+   "value": "1.1.1199882037.1787987694",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1795763694,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_twpid",
+   "value": "tw.1787987694640.737680931226813953",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1821683694.641,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "Strict"
+  },
+  {
+   "name": "token",
+   "value": "<REDACTED_JWT>",
+   "domain": "chat.z.ai",
+   "path": "/",
+   "expires": -1,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "Lax"
+  },
+  {
+   "name": "_rdt_uuid",
+   "value": "1787987694058.71b712e6-20c8-4f74-8f7d-a07bd74996e9",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1795763698,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "Strict"
+  },
+  {
+   "name": "_ga",
+   "value": "GA1.1.655821814.1787987694",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1822547698.982,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_uetsid",
+   "value": "55b695c0a37911f1a54a31e0372d629a",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1788074099,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_uetvid",
+   "value": "55b6c130a37911f1ad5b6f1e839252f0",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1821683699,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_clck",
+   "value": "n53vhr%5E2%5Eg90%5E0%5E2432",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1819523702,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_fbp",
+   "value": "fb.1.1787987695113.884598482869598472.AQYAAQIB",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1795763708,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_twsid",
+   "value": "%7B%22id%22%3A%221787987694640-62881463%22%2C%22ct%22%3A1%2C%22ts%22%3A1787987709274%7D",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1821683709.273,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "Strict"
+  },
+  {
+   "name": "_clsk",
+   "value": "13noopz%5E1787987709387%5E2%5E0%5Eo.clarity.ms%2Fcollect",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1788074109,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_ga_Z8QTHYBHP3",
+   "value": "GS2.1.s1787987693$o1$g1$t1787987709$j44$l0$h0",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1822547709.671,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_ga_SF8X67RPF9",
+   "value": "GS2.1.s1787987694$o1$g1$t1787987709$j45$l0$h0",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1822547709.7,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_ga_9HHB4R5K1T",
+   "value": "GS2.1.s1787987694$o1$g1$t1787987709$j45$l0$h0",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1822547709.719,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_c_WBKFRo",
+   "value": "ySqjVUzAj37hGalReR3iAuuSLdfi8zHb9DeRUjZK",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1819523711,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "_nb_ioWEgULi",
+   "value": "",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": -1,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "ssxmod_itna",
+   "value": "1-QqUxgD9iiQdiqAK5YjceDwqQKe79PAjQDXDUqeiQGgDYq7=GFDmx0px8gd92P4DCtDehxsiij7mqswGDGXPiKx4Gk0DWPGEKxTgPzKxuBEjqYHGBRpIKbVe_N5=NBeIXIRGDr9TnfOL/j9lx6IWuLADB3DbkfxmOm5xYYDC4GwDGoD34DiDDPDb83DAqeD7qDF9QWbd6TDm4GW9eDmDGA=LeDgIDDBDD=Pcip=1Y6=La2Cxrqr5A9K9eDMWxGXGGSd9myfX/47TPGyR1TaWeG9WjnoR6E3x5CDtLWiW13=A2ua=PFYwTK5K2_I4dDHoK9mDDak8xHGKHDDMjox_D5erDG5P52hzRDFGNQi2KiKHGxtqxUDxmhxzmq0qiD_xQDNnBQZ4DG8IN8DogQw7edOxqAiqciwADRD=KxIl0dZDIDhDtimKGDQoIWQpShIR7oQ2tNifvgxsjikxoz2dReKvaw4D",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1787989543,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "ssxmod_itna2",
+   "value": "1-QqUxgD9iiQdiqAK5YjceDwqQKe79PAjQDXDUqeiQGgDYq7=GFDmx0px8gd92P4DCtDehxsiij7mqswDDcYsrF8iIqDLe2iaAiF4cvQzHftc3F63pxGXKwEzPbFOqBxChXcdiDO6x5YK=yPwYB4e/TieiGqqQexq/YbG6GDD",
+   "domain": ".z.ai",
+   "path": "/",
+   "expires": 1787989543,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None"
+  },
+  {
+   "name": "MR",
+   "value": "0",
+   "domain": ".bat.bing.com",
+   "path": "/",
+   "expires": 1788592495.112,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "MUID",
+   "value": "0B2F0BB145D66BE82BA41C7544316A3B",
+   "domain": ".bing.com",
+   "path": "/",
+   "expires": 1821683707.786,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "MR",
+   "value": "0",
+   "domain": ".c.bing.com",
+   "path": "/",
+   "expires": 1788592507.786,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "SRM_B",
+   "value": "0B2F0BB145D66BE82BA41C7544316A3B",
+   "domain": ".c.bing.com",
+   "path": "/",
+   "expires": 1821683707.786,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None"
+  }
+ ]
+}

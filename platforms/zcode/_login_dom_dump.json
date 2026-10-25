@@ -1,0 +1,151 @@
+{
+ "before": {
+  "buttons": [
+   {
+    "text": "Forgot Password?",
+    "cls": "text-sm font-medium text-black dark:text-gray-400 underline",
+    "type": "button"
+   },
+   {
+    "text": "Sign in",
+    "cls": "ButtonSignIn ButtonCreateAccount button-gradient dark:bg-[#484A58] dar",
+    "type": "submit"
+   },
+   {
+    "text": "Skip for now",
+    "cls": "ButtonSkipForNow flex justify-center items-center mt-3 dark:text-gray-",
+    "type": "submit"
+   },
+   {
+    "text": "Sign up",
+    "cls": " font-medium underline",
+    "type": "button"
+   },
+   {
+    "text": "",
+    "cls": "ButtonContinueWithGoogle",
+    "type": "submit"
+   },
+   {
+    "text": "",
+    "cls": "ButtonContinueWithGithub",
+    "type": "submit"
+   }
+  ],
+  "inputs": [
+   {
+    "type": "email",
+    "placeholder": "Enter Your Email",
+    "name": "email"
+   },
+   {
+    "type": "password",
+    "placeholder": "Enter Your Password",
+    "name": "current-password"
+   }
+  ],
+  "captcha": []
+ },
+ "after": {
+  "buttons": [
+   {
+    "text": "Forgot Password?",
+    "cls": "text-sm font-medium text-black dark:text-gray-400 underline",
+    "type": "button"
+   },
+   {
+    "text": "Sign in",
+    "cls": "ButtonSignIn ButtonCreateAccount button-gradient dark:bg-[#484A58] dar",
+    "type": "submit"
+   },
+   {
+    "text": "Skip for now",
+    "cls": "ButtonSkipForNow flex justify-center items-center mt-3 dark:text-gray-",
+    "type": "submit"
+   },
+   {
+    "text": "Sign up",
+    "cls": " font-medium underline",
+    "type": "button"
+   },
+   {
+    "text": "",
+    "cls": "ButtonContinueWithGoogle",
+    "type": "submit"
+   },
+   {
+    "text": "",
+    "cls": "ButtonContinueWithGithub",
+    "type": "submit"
+   }
+  ],
+  "inputs": [
+   {
+    "type": "email",
+    "placeholder": "Enter Your Email",
+    "name": "email"
+   },
+   {
+    "type": "password",
+    "placeholder": "Enter Your Password",
+    "name": "current-password"
+   }
+  ],
+  "captcha": [
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-float-wrapper",
+    "cls": "",
+    "text": "Click to start verification"
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-wrapper",
+    "cls": "aliyun-captcha",
+    "text": "Click to start verification"
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-body",
+    "cls": "captcha hover-active",
+    "text": "Click to start verification"
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-left",
+    "cls": "aliyunCaptcha-captcha-left",
+    "text": "Click to start verification"
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-start-icon",
+    "cls": "aliyunCaptcha-start-icon",
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-text-box",
+    "cls": "aliyunCaptcha-captcha-text-box",
+    "text": "Click to start verification"
+   },
+   {
+    "tag": "SPAN",
+    "id": "aliyunCaptcha-captcha-text",
+    "cls": "aliyunCaptcha-captcha-text",
+    "text": "Click to start verification"
+   },
+   {
+    "tag": "DIV",
+    "id": "aliyunCaptcha-captcha-logo-wrap",
+    "cls": "aliyunCaptcha-captcha-logo-wrap",
+    "text": ""
+   },
+   {
+    "tag": "IMG",
+    "id": "aliyunCaptcha-captcha-logo",
+    "cls": "aliyunCaptcha-captcha-logo",
+    "text": ""
+   }
+  ]
+ }
+}

@@ -13,7 +13,7 @@ SUPPORTED_PLATFORMS = (
     "chatgpt", "icloud",
     # 201 fork 移植回迁（方案A，见 docs/注册机方案A移植分析.md）
     "github", "cerebras", "tavily", "cursor",
-    "kiro", "trae", "grok",
+    "kiro", "trae", "grok", "zcode",
 )
 
 _registry: dict[str, Type[BasePlatform]] = {}

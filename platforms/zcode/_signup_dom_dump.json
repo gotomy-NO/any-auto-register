@@ -1,0 +1,120 @@
+{
+ "buttons": [
+  {
+   "text": "Create Account",
+   "cls": "ButtonSignIn ButtonCreateAccount button-gradient dark:bg-[#484A58] dark:hover:bg",
+   "id": "",
+   "type": "submit",
+   "html": "<button class=\"ButtonSignIn ButtonCreateAccount button-gradient dark:bg-[#484A58] dark:hover:bg-[#5A5C68] text-white dark:text-gray-300 dark:hover:text-white w-full rounded-lg font-medium text-sm py-2.5 mt-3\" type=\"submit\">Create Account<!----></butt"
+  },
+  {
+   "text": "Skip for now",
+   "cls": "ButtonSkipForNow flex justify-center items-center mt-3 dark:text-gray-300 dark:h",
+   "id": "",
+   "type": "submit",
+   "html": "<button class=\"ButtonSkipForNow flex justify-center items-center mt-3 dark:text-gray-300 dark:hover:text-white w-full rounded-lg border-1 border-black/10 dark:border-white/10 font-medium text-sm py-2.5 dark:hover:bg-white/5\">Skip for now</button>"
+  },
+  {
+   "text": "Sign in",
+   "cls": " font-medium underline",
+   "id": "",
+   "type": "button",
+   "html": "<button class=\" font-medium underline\" type=\"button\">Sign in</button>"
+  },
+  {
+   "text": "",
+   "cls": "ButtonContinueWithGoogle",
+   "id": "",
+   "type": "submit",
+   "html": "<button class=\"ButtonContinueWithGoogle\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-3 0 48 48\" class=\"size-4\"><path fill=\"#EA4335\" d=\"M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12."
+  },
+  {
+   "text": "",
+   "cls": "ButtonContinueWithGithub",
+   "id": "",
+   "type": "submit",
+   "html": "<button class=\"ButtonContinueWithGithub\"><svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"size-5\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 0C3.5816 0 0 3.5872 0 8.0136C0 11.5536 2.292 14.5576 5.4712 15.6168C5."
+  }
+ ],
+ "inputs": [
+  {
+   "type": "text",
+   "placeholder": "Enter Your Full Name",
+   "name": ""
+  },
+  {
+   "type": "email",
+   "placeholder": "Enter Your Email",
+   "name": "email"
+  },
+  {
+   "type": "password",
+   "placeholder": "Enter Your Password",
+   "name": "new-password"
+  }
+ ],
+ "iframes": [
+  {
+   "src": "",
+   "cls": ""
+  }
+ ],
+ "captcha": [
+  {
+   "tag": "DIV",
+   "cls": "flex-1",
+   "id": "captcha-element",
+   "text": "Click to start verification",
+   "html": "<div id=\"captcha-element\" class=\"flex-1\"><div id=\"aliyunCaptcha-float-wrapper\">    <div id=\"aliyunCaptcha-captcha-wrapper\" class=\"aliyun-captcha\">      <div id=\"aliyunCaptcha-captcha-body\" class=\"capt"
+  },
+  {
+   "tag": "DIV",
+   "cls": "aliyun-captcha",
+   "id": "aliyunCaptcha-captcha-wrapper",
+   "text": "Click to start verification",
+   "html": "<div id=\"aliyunCaptcha-captcha-wrapper\" class=\"aliyun-captcha\">      <div id=\"aliyunCaptcha-captcha-body\" class=\"captcha hover-active\">        <div id=\"aliyunCaptcha-captcha-left\" class=\"aliyunCaptcha"
+  },
+  {
+   "tag": "DIV",
+   "cls": "captcha hover-active",
+   "id": "aliyunCaptcha-captcha-body",
+   "text": "Click to start verification",
+   "html": "<div id=\"aliyunCaptcha-captcha-body\" class=\"captcha hover-active\">        <div id=\"aliyunCaptcha-captcha-left\" class=\"aliyunCaptcha-captcha-left\">          <img id=\"aliyunCaptcha-start-icon\" class=\"al"
+  },
+  {
+   "tag": "DIV",
+   "cls": "aliyunCaptcha-captcha-left",
+   "id": "aliyunCaptcha-captcha-left",
+   "text": "Click to start verification",
+   "html": "<div id=\"aliyunCaptcha-captcha-left\" class=\"aliyunCaptcha-captcha-left\">          <img id=\"aliyunCaptcha-start-icon\" class=\"aliyunCaptcha-start-icon\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+  },
+  {
+   "tag": "DIV",
+   "cls": "aliyunCaptcha-captcha-text-box",
+   "id": "aliyunCaptcha-captcha-text-box",
+   "text": "Click to start verification",
+   "html": "<div id=\"aliyunCaptcha-captcha-text-box\" class=\"aliyunCaptcha-captcha-text-box\">            <span id=\"aliyunCaptcha-captcha-text\" class=\"aliyunCaptcha-captcha-text\">Click to start verification</span> "
+  },
+  {
+   "tag": "SPAN",
+   "cls": "aliyunCaptcha-captcha-text",
+   "id": "aliyunCaptcha-captcha-text",
+   "text": "Click to start verification",
+   "html": "<span id=\"aliyunCaptcha-captcha-text\" class=\"aliyunCaptcha-captcha-text\">Click to start verification</span>"
+  },
+  {
+   "tag": "DIV",
+   "cls": "aliyunCaptcha-captcha-logo-wrap",
+   "id": "aliyunCaptcha-captcha-logo-wrap",
+   "text": "",
+   "html": "<div id=\"aliyunCaptcha-captcha-logo-wrap\" class=\"aliyunCaptcha-captcha-logo-wrap\">          <img src=\"https://z-cdn.chatglm.cn/z-ai/static/logo.svg\" id=\"aliyunCaptcha-captcha-logo\" class=\"aliyunCaptch"
+  },
+  {
+   "tag": "IMG",
+   "cls": "aliyunCaptcha-captcha-logo",
+   "id": "aliyunCaptcha-captcha-logo",
+   "text": "",
+   "html": "<img src=\"https://z-cdn.chatglm.cn/z-ai/static/logo.svg\" id=\"aliyunCaptcha-captcha-logo\" class=\"aliyunCaptcha-captcha-logo\">"
+  }
+ ]
+}
