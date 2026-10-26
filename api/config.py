@@ -13,6 +13,9 @@ from services.sms_service import SMS_DEFAULT_COUNTRY, SMS_DEFAULT_SERVICE
 router = APIRouter(prefix="/config", tags=["config"])
 
 CONFIG_KEYS = [
+    # 201 fork 移植：网关连接(nr)可配置项 —— 产号自动推送 9Router 的接线参数
+    "nr_base_url",
+    "nr_panel_password",
     "email_domain_rule_enabled",
     "email_domain_level_count",
     "laoudo_auth",
