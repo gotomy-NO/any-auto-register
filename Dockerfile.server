@@ -46,7 +46,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates curl nodejs \
     && rm -rf /var/lib/apt/lists/* \
     && pip install --upgrade pip \
-    && pip install -r requirements.txt
+    && pip install -r requirements.txt \
+    && python -m playwright install chromium \
+    && python -m camoufox fetch
 
 COPY . .
 COPY --from=frontend-builder /app/static /app/static
