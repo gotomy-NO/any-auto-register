@@ -37,7 +37,7 @@ class ZcodePlatform(BasePlatform):
         mail_acct: Optional[MailboxAccount] = None
         current_email = email
         if self.mailbox and not current_email:
-            mail_acct = self.mailbox.get_email(platform="zcode")
+            mail_acct = self.mailbox.get_email()
             current_email = mail_acct.email if mail_acct else None
         if not current_email:
             raise RuntimeError("未获取到可用邮箱（zcode 依赖注册机内部邮箱池）")

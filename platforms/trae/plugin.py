@@ -17,7 +17,7 @@ class TraePlatform(BasePlatform):
     def register(self, email: str, password: str = None) -> Account:
         log = getattr(self, '_log_fn', print)
 
-        mail_acct = self.mailbox.get_email(platform="trae") if self.mailbox else None
+        mail_acct = self.mailbox.get_email() if self.mailbox else None
         email = email or (mail_acct.email if mail_acct else None)
         if not email:
             raise RuntimeError("Trae 注册未取得邮箱地址（mailbox 未返回且未显式传入）")

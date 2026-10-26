@@ -1347,7 +1347,7 @@ class KiroProtocolFlow:
 def build_mailbox(provider: str, extra: dict, proxy: str | None = None):
     from core.base_mailbox import create_mailbox, MailboxAccount  # noqa: PLC0415
     mb = create_mailbox(provider=provider, extra=extra, proxy=proxy)
-    acct = mb.get_email(platform="kiro") if hasattr(mb, "get_email") else None
+    acct = mb.get_email() if hasattr(mb, "get_email") else None
     return mb, acct
 
 
