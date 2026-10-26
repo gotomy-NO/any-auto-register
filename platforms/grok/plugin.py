@@ -86,7 +86,7 @@ class GrokPlatform(BasePlatform):
             mail_acct = None
             current_email = email
             if self.mailbox and not current_email:
-                mail_acct = self.mailbox.get_email(platform="grok")
+                mail_acct = self.mailbox.get_email()
                 current_email = mail_acct.email if mail_acct else None
             log(f"邮箱: {current_email}")
             before_ids = (

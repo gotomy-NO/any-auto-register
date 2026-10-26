@@ -54,7 +54,7 @@ class CerebrasPlatform(BasePlatform):
         log = getattr(self, "_log_fn", print)
         mail_acct = None
         if self.mailbox and not email:
-            mail_acct = self.mailbox.get_email(platform="cerebras")
+            mail_acct = self.mailbox.get_email()
             email = mail_acct.email if mail_acct else ""
         if not email:
             raise RuntimeError("Cerebras 注册未取得邮箱（mailbox 未返回且未显式传入）")

@@ -43,7 +43,7 @@ class KiroPlatform(BasePlatform):
 
         if self.mailbox:
             mailbox = self.mailbox
-            mail_acct = mailbox.get_email(platform="kiro")
+            mail_acct = mailbox.get_email()
             if not mail_acct:
                 raise RuntimeError("未获取到可用邮箱账号")
             email = email or mail_acct.email
@@ -124,7 +124,7 @@ class KiroPlatform(BasePlatform):
         otp_provider = None
         mail_acct = None
         if self.mailbox:
-            mail_acct = self.mailbox.get_email(platform="kiro")
+            mail_acct = self.mailbox.get_email()
             if mail_acct:
                 email = email or mail_acct.email
                 otp_provider = mailbox_otp_provider(

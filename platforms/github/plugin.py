@@ -25,7 +25,7 @@ class GithubPlatform(BasePlatform):
         # 邮箱：优先外部指定，其次邮箱后端分配（ccwu/微软池均可收 GitHub 验证码）
         mail_acct = None
         if self.mailbox and not email:
-            mail_acct = self.mailbox.get_email(platform="github")
+            mail_acct = self.mailbox.get_email()
             email = mail_acct.email if mail_acct else None
         if not email:
             raise RuntimeError("未提供邮箱且邮箱后端无可分配邮箱")
