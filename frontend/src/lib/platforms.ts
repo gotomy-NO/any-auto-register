@@ -1,4 +1,15 @@
-export type PlatformName = 'chatgpt' | 'icloud'
+export type PlatformName =
+  | 'chatgpt'
+  | 'icloud'
+  // 201 fork 移植平台（方案A，见 docs/注册机方案A移植分析.md）
+  | 'github'
+  | 'cerebras'
+  | 'tavily'
+  | 'cursor'
+  | 'kiro'
+  | 'trae'
+  | 'grok'
+  | 'zcode'
 
 export type ExecutorType = 'protocol' | 'headless' | 'headed'
 
@@ -35,6 +46,71 @@ export const PLATFORMS: Record<PlatformName, PlatformMeta> = {
     executors: ['protocol'],
     usesMailbox: false,
     usesCaptcha: false,
+  },
+  // 201 fork 移植平台（executor 列表与各后端插件 supported_executors 一致）
+  github: {
+    name: 'github',
+    label: 'GitHub',
+    color: '#8a6fc7',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  cerebras: {
+    name: 'cerebras',
+    label: 'Cerebras',
+    color: '#c79a6f',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  tavily: {
+    name: 'tavily',
+    label: 'Tavily',
+    color: '#6fc79a',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  cursor: {
+    name: 'cursor',
+    label: 'Cursor',
+    color: '#6f8ac7',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  kiro: {
+    name: 'kiro',
+    label: 'Kiro (AWS Builder ID)',
+    color: '#c76f8a',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  trae: {
+    name: 'trae',
+    label: 'Trae.ai',
+    color: '#c76f6f',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  grok: {
+    name: 'grok',
+    label: 'Grok',
+    color: '#7b7b85',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
+  },
+  zcode: {
+    name: 'zcode',
+    label: 'ZCode',
+    color: '#6fc7c7',
+    executors: ['protocol', 'headless', 'headed'],
+    usesMailbox: true,
+    usesCaptcha: true,
   },
 }
 
