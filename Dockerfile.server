@@ -48,6 +48,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && pip install --upgrade pip \
     && pip install -r requirements.txt \
     && python -m playwright install --with-deps chromium \
+    && apt-get update && apt-get install -y --no-install-recommends \
+        libgtk-3-0t64 libx11-xcb1 libxtst6 libxrender1 libxi6 \
+        libavcodec61 libavformat61 libavutil59 libgtk-3-common \
+    && rm -rf /var/lib/apt/lists/* \
     && python -m camoufox fetch \
     && python - <<'PYCHK'
 from camoufox.pkgman import installed_version
