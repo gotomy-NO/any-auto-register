@@ -19,7 +19,7 @@ services:
       PORT: "8000"
       APP_RELOAD: "0"
       APP_RUNTIME_DIR: /runtime
-      APP_ENABLE_SOLVER: "0"
+      APP_ENABLE_SOLVER: "${APP_ENABLE_SOLVER:-0}"
       DATABASE_URL: sqlite:////runtime/account_manager.db
       # 必须落在挂载卷里，否则每次重建容器都会换密钥，库里的凭据全部作废
       CREDENTIAL_ENCRYPTION_KEY_FILE: /runtime/.secrets/credential_key

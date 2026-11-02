@@ -26,5 +26,5 @@ numpy>=1.26.0  # platforms/zcode aliyun_slider
 # 仅 Windows 需要；docker/跨平台部署可忽略（相关 import 均为函数内延迟导入）
 pywinauto>=0.6.9; sys_platform == "win32"
 pywin32>=306; sys_platform == "win32"
-Pillow>=10.0.0; sys_platform == "win32"
+Pillow>=10.0.0
 psutil>=5.9.0; sys_platform == "win32"
