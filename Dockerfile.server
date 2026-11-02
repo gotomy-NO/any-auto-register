@@ -47,8 +47,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/* \
     && pip install --upgrade pip \
     && pip install -r requirements.txt \
-    && python -m playwright install chromium \
-    && python -m camoufox fetch
+    && python -m playwright install --with-deps chromium \
+    && python -m camoufox fetch \
+    && python - <<'PYCHK'
+from camoufox.pkgman import installed_version
+assert installed_version(), "camoufox binary missing"
+PYCHK
 
 COPY . .
 COPY --from=frontend-builder /app/static /app/static
