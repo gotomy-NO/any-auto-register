@@ -61,7 +61,8 @@ class RegisterTaskRequest(BaseModel):
     register_delay_seconds: float = 0
     proxy: Optional[str] = None
     executor_type: str = "protocol"
-    captcha_solver: str = "yescaptcha"
+    # 空值 = 跟随全局设置 default_captcha_solver（面板可改）；显式传值时以请求为准
+    captcha_solver: str = ""
     extra: dict = Field(default_factory=dict)
 
 
@@ -585,9 +586,14 @@ def _run_register(task_id: str, req: RegisterTaskRequest):
 
                 merged_extra = _base_extra
 
+                if not req.captcha_solver:
+                    from core.config_store import config_store as _cs
+                    _fallback = str(_cs.get("default_captcha_solver", "") or "").strip()
+                else:
+                    _fallback = req.captcha_solver
                 _config = RegisterConfig(
                     executor_type=req.executor_type,
-                    captcha_solver=req.captcha_solver,
+                    captcha_solver=_fallback or "yescaptcha",
                     proxy=_proxy,
                     extra=merged_extra,
                 )
